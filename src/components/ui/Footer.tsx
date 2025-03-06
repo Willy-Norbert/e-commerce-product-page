@@ -1,20 +1,20 @@
-import React from 'react'
+import React from 'react';
 
 const Footer = () => {
   return (
-    <div>
-       {/* Footer */}
-       <footer className="bg-muted py-3 mt-12">
+    <footer className="bg-gray-900 text-gray-300 py-6 mt-12">
+      <div className="container mx-auto px-4">
+        
+      
 
-<div className="  px-4 pt-8 mt-8 border-t text-center text-sm text-muted-foreground">
-  <p>© 2023 Irabaruta Shop. All rights reserved.</p>
-  <p className="mt-1">
-    Made with pride in Kigali, Rwanda
-  </p>
-</div>
-</footer>
-    </div>
-  )
-}
+        {/* Copyright Section */}
+        <div className="text-center text-sm text-gray-500">
+          <p>© {new Date().getFullYear()} Irabaruta Shop. All rights reserved.</p>
+          <p className="mt-1">Made with ❤️ by irabaruta in Kigali, Rwanda</p>
+        </div>
+      </div>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;

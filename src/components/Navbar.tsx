@@ -120,21 +120,9 @@ const Navbar = () => {
           <nav className="flex flex-col p-4 space-y-4">
             <Link to="/" className="font-medium hover:text-primary transition-colors p-2" onClick={() => setIsMenuOpen(false)}>Home</Link>
             <Link to="/search" className="font-medium hover:text-primary transition-colors p-2" onClick={() => setIsMenuOpen(false)}>Products</Link>
-            <Link to="/search?category=Home%20Decor" className="font-medium hover:text-primary transition-colors p-2" onClick={() => setIsMenuOpen(false)}>Collections</Link>
+          
             <Link to="/contact" className="font-medium hover:text-primary transition-colors p-2" onClick={() => setIsMenuOpen(false)}>Contact</Link>
             
-            <form onSubmit={handleSearch} className="flex items-center bg-muted rounded-full px-3 py-1.5 mt-2">
-              <Input 
-                type="text" 
-                placeholder="Search..." 
-                className="border-0 bg-transparent focus-visible:ring-0"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-              />
-              <button type="submit">
-                <Search size={18} className="text-muted-foreground" />
-              </button>
-            </form>
           </nav>
         </div>
       )}

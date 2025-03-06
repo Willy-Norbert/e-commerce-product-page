@@ -1,10 +1,7 @@
-
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '@/components/ui/footer';
 import { products, featuredProduct } from '../data/products';
-import { Separator } from "@/components/ui/separator";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from 'lucide-react';
 import ProductCard from '@/components/ProductCard';

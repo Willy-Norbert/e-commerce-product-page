@@ -5,25 +5,30 @@ const NotFound = () => {
   const location = useLocation();
 
   useEffect(() => {
-    console.error(
-      `404 Error: Attempted to access non-existent route: ${location.pathname}`
-    );
+    console.error(`🚨 404 Error: Page not found - ${location.pathname}`);
   }, [location.pathname]);
 
   return (
-    <main className="min-h-screen flex items-center justify-center bg-gray-100 px-6">
-      <div className="text-center">
-        <h1 className="text-6xl font-extrabold text-gray-800 mb-4">404</h1>
-        <p className="text-lg text-gray-600 mb-6">
-          Sorry, the page you are looking for does not exist.
-        </p>
-        <Link
-          to="/"
-          className="inline-block px-6 py-3 text-white bg-blue-600 rounded-md shadow-md transition-transform transform hover:scale-105 hover:bg-blue-700"
-        >
-          Return to Home
-        </Link>
-      </div>
+    <main className="min-h-screen flex flex-col items-center justify-center bg-gray-50 px-6">
+      {/* GIF Image */}
+      <img 
+         src="https://i.pinimg.com/originals/0e/c0/db/0ec0dbf1e9a008acb9955d3246970e15.gif" 
+        alt="Page Not Found"
+        className="w-64 h-64 object-cover mb-6"
+      />
+
+      {/* Main Text */}
+      <p className="text-lg text-gray-600 mt-4">
+        Oops! The page you are looking for does not exist.
+      </p>
+
+      {/* Return Home Button */}
+      <Link
+        to="/"
+        className="mt-6 px-6 py-3 text-white bg-blue-600 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:bg-blue-700 focus:ring focus:ring-blue-300"
+      >
+        Return to Home
+      </Link>
     </main>
   );
 };

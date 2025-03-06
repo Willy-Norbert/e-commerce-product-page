@@ -73,10 +73,6 @@ const SearchPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
             {/* Filters panel */}
             <div className="bg-muted p-4 rounded-lg">
-              <div className="flex items-center gap-2 mb-4">
-                <Filter size={18} />
-                <h2 className="font-semibold">Filters</h2>
-              </div>
               
               <div className="space-y-4">
                 <div>
