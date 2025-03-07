@@ -89,10 +89,5 @@ Here are the libraries used in this project and their installation commands:
    npm install react-router-dom  
 
   ```
-  3. **Tailwind CSS** for styling:  
-   ```bash  
-   npm install -D tailwindcss postcss autoprefixer  
-   npx tailwindcss init
 
-  ```
   
