@@ -11,7 +11,7 @@ const Index = () => {
     <div className="min-h-screen">
       {/* Navbar */}
       <Navbar />
-      <section className="py-12 bg-muted">
+      <section className="py-10 bg-muted">
 
       </section>
 

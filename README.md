@@ -1,69 +1,98 @@
-# Welcome to your irabaruta project
+# My Project is Hosted on Vercel/Netlify  
+The link for it is [[here](https://e-commerce-product-page-sooty.vercel.app/)]  
 
-## Project info
+# E-Commerce Product Page  
 
-**URL**: 
+This project is a responsive and visually appealing product page for an e-commerce website, built using **React (TypeScript)** and **Tailwind CSS**. It allows users to view product details, read reviews, and add items to their cart.  
 
-## How can I edit this code?
+## Project Overview  
 
-There are several ways of editing your application.
+- **Title:** E-Commerce Product Page  
+- **Level:** Beginner  
+- **Duration:** 1 week  
+- **Project Category:** Frontend Development  
+- **Technologies:** React (TypeScript), Tailwind CSS  
 
-**Use irabaruta**
+## Objectives  
 
-Simply visit the [irabaruta Project](https://irabaruta.dev/projects/15ee9747-8908-49bf-a9b0-1189b7a453b5) and start prompting.
+- To build a responsive and visually appealing product page for an e-commerce website.  
+- To practice React with TypeScript and Tailwind CSS.  
+- To implement product display, reviews, and add-to-cart functionality.  
 
-Changes made via irabaruta will be committed automatically to this repo.
+## Skills Involved  
 
-**Use your preferred IDE**
+- **React with TypeScript** for building dynamic and type-safe components.  
+- **Tailwind CSS** for efficient and responsive styling.  
+- **Responsive Web Design** to ensure the page works seamlessly across devices.  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in irabaruta.
+## Project Description  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Develop an E-Commerce Product Page where users can:  
+- View product details (image, name, description, and price).  
+- Read and submit product reviews.  
+- Add products to their shopping cart.  
+- Explore related products.  
+- Toggle between light and dark modes.  
 
-Follow these steps:
+## Project Features  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **Product Display:** Show product image, name, description, and price.  
+- **Reviews Section:** Allow users to read and submit product reviews.  
+- **Add to Cart Button:** Users can add products to their shopping cart.  
+- **Related Products:** Suggest similar items to users.  
+- **Dark Mode Toggle:** Option to switch between light and dark modes.  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Steps to Complete  
 
-# Step 3: Install the necessary dependencies.
-npm i
+1. Set up a React TypeScript project and install dependencies.  
+2. Design and structure the product page layout.  
+3. Create React components for each section.  
+4. Apply Tailwind CSS for styling.  
+5. Implement state management for cart functionality.  
+6. Test responsiveness and deploy on Vercel or Netlify.  
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## Deliverables  
 
-**Edit a file directly in GitHub**
+- Fully functional e-commerce product page.  
+- GitHub repository with well-structured code.  
+- Live deployment (Vercel/Netlify).  
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Evaluation Criteria  
 
-**Use GitHub Codespaces**
+- **React & TypeScript Implementation:** Proper use of React components and TypeScript.  
+- **State Management:** Correct handling of state for cart functionality.  
+- **Tailwind CSS Usage:** Efficient and clean styling with Tailwind CSS.  
+- **Responsive Design and Accessibility:** Seamless experience across devices and accessibility compliance.  
+- **Clean and Readable Code:** Well-structured and maintainable codebase.  
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Technologies Used  
 
-## What technologies are used for this project?
+- **React (TypeScript)** for building the frontend.  
+- **Tailwind CSS** for styling and responsive design.  
+- **Vercel/Netlify** for deployment.  
 
-This project is built with .
+## Libraries Installed  
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Here are the libraries used in this project and their installation commands:  
 
-## How can I deploy this project?
+1. **React** for building the frontend:  
+   ```bash  
+   npx create-react-app my-app --template typescript  
+   ```
+2. **Tailwind CSS** for styling:  
+   ```bash  
+   npm install -D tailwindcss postcss autoprefixer  
+   npx tailwindcss 
+   ```
+3. **React Router DOM** for routing:  
+   ```bash  
+   npm install react-router-dom  
 
-Simply open [irabaruta](https://irabaruta.dev/projects/15ee9747-8908-49bf-a9b0-1189b7a453b5) and click on Share -> Publish.
+  ```
+  3. **Tailwind CSS** for styling:  
+   ```bash  
+   npm install -D tailwindcss postcss autoprefixer  
+   npx tailwindcss init
 
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.irabaruta.dev/tips-tricks/custom-domain/)
+  ```
+  
