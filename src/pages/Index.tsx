@@ -11,12 +11,12 @@ const Index = () => {
     <div className="min-h-screen">
       {/* Navbar */}
       <Navbar />
-      <section className="py-10 bg-muted">
+      <section className="py-12 bg-muted">
 
       </section>
 
       {/* Feutured products Secdion */}
-      <section className="py-16 bg-background">
+      <section className=" bg-background">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center justify-between mb-8">
             <h2 className="text-3xl font-bold">Featured Products</h2>

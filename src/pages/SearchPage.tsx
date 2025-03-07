@@ -61,7 +61,7 @@ const SearchPage = () => {
     <div className="min-h-screen">
       <Navbar />
       
-      <main className="pt-24 pb-16 px-4">
+      <main className="pt-24  px-4">
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center gap-2 mb-6">
             <Button variant="ghost" onClick={() => navigate('/')} className="p-2">
