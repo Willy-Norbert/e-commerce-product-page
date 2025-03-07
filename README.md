@@ -1,5 +1,5 @@
 # My Project is Hosted on Vercel/Netlify  
-The link for it is [[here](https://e-commerce-product-page-sooty.vercel.app/)]  
+The link for it is [here](https://e-commerce-product-page-sooty.vercel.app/)
 
 # E-Commerce Product Page  
 
